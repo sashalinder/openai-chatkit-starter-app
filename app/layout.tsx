@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script type="module" src="https://cdn.platform.openai.com/deployments/chatkit/chatkit.js"/>
+        <Script type="module" src="https://cdn.platform.openai.com/deployments/chatkit/chatkit.js"  strategy="beforeInteractive"/>
       </head>
       <body className="antialiased">{children}</body>
     </html>
